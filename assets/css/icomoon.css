@@ -1,0 +1,783 @@
+@font-face {
+    font-family: custom-icon;
+    font-display: swap;
+    src: url(../fonts/custom-icon.eot?gwru3o=);
+    src: url(../fonts/custom-icon.eot?gwru3o=#iefix) format("embedded-opentype"), 
+        url(../fonts/custom-icon.woff2?gwru3o=) format("woff2"), 
+        url(../fonts/custom-icon.woff?gwru3o=) format("woff"), 
+        url(../fonts/custom-icon.ttf?gwru3o=) format("truetype"), 
+        url(../fonts/custom-icon.svg?gwru3o=#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: icomoon !important;
+    font-display: swap;
+    src: url(../fonts/icomoon.eot?rp5msa=);
+    src: url(../fonts/icomoon.eot?rp5msa=#iefix) format("embedded-opentype"),  
+         url(../fonts/icomoon.woff2?rp5msa=) format("woff2"), 
+         url(../fonts/icomoon.woff?rp5msa=) format("woff"),
+         url(../fonts/icomoon.ttf?rp5msa=) format("truetype"), 
+         url(../fonts/icomoon.svg?rp5msa=#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: custom-icon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-Ic_mic:before {
+    content: "\e990"
+}
+
+.cd-bodyTicon [class*=" icon-"],
+.cd-bodyTicon [class^=icon-] {
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-hotdeals:before {
+    content: "\e99f";
+    color: #ff531c
+}
+
+.icon-bestprice:before {
+    content: "\e99e";
+    color: #2176ae
+}
+
+.icon-users:before {
+    content: "\e9a4";
+    color: #2176ae
+}
+
+.icon-rc:before {
+    content: "\e9a5";
+    color: #2176ae
+}
+
+.icon-instant-money:before {
+    content: "\e9a6";
+    color: #2176ae
+}
+
+.icon-calendra:before {
+    content: "\e9a7"
+}
+
+.icon-listcar:before {
+    content: "\e9a8"
+}
+
+.icon-cars-icon:before {
+    content: "\e999"
+}
+
+.icon-report:before {
+    content: "\e998"
+}
+
+.icon-motor-power:before {
+    content: "\e997"
+}
+
+.icon-carDekhoLogo:before {
+    content: "\e98b";
+    color: #f75d34
+}
+
+.icon-gaadi-logo:before {
+    content: "\e98c";
+    color: #db3826
+}
+
+.icon-insurancelogo:before {
+    content: "\e98a";
+    color: #ff2d3c
+}
+
+.icon-notifications:before {
+    content: "\e989"
+}
+
+.icon-convertibleIcon:before,
+.icon-convertiblesIcon:before {
+    content: "\e900"
+}
+
+.icon-coupeIcon:before {
+    content: "\e901"
+}
+
+.icon-hatchbackIcon:before {
+    content: "\e902"
+}
+
+.icon-hybridIcon:before,
+.icon-hybridsIcon:before {
+    content: "\e903"
+}
+
+.icon-luxuryIcon:before,
+.icon-super-luxuryIcon:before {
+    content: "\e904"
+}
+
+.icon-minivanIcon:before,
+.icon-minivansIcon:before {
+    content: "\e905"
+}
+
+.icon-muvIcon:before {
+    content: "\e906"
+}
+
+.icon-sedanIcon:before,
+.icon-sedansIcon:before {
+    content: "\e907"
+}
+
+.icon-suvIcon:before {
+    content: "\e908"
+}
+
+.icon-pickup-truckIcon:before,
+.icon-pickup-trucksIcon:before,
+.icon-truckIcon:before,
+.icon-trucksIcon:before {
+    content: "\e909"
+}
+
+.icon-wagonIcon:before,
+.icon-wagonsIcon:before {
+    content: "\e90a"
+}
+
+.icon-youtube:before {
+    content: "\e974"
+}
+
+.icon-instagram:before {
+    content: "\e975"
+}
+
+.icon-Variants:before {
+    content: "\e976"
+}
+
+.icon_road-test:before {
+    content: "\e925"
+}
+
+.icon-miscellaneous:before {
+    content: "\e964"
+}
+
+.icon-perfomance:before {
+    content: "\e965"
+}
+
+.icon-price:before {
+    content: "\e96c"
+}
+
+.icon-specifications:before {
+    content: "\e96d"
+}
+
+.icon-airbag:before {
+    content: "\e96e"
+}
+
+.icon-bootspace:before {
+    content: "\e972"
+}
+
+.icon-features:before {
+    content: "\e973"
+}
+
+.icon-spare-parts:before {
+    content: "\e992"
+}
+
+.icon-faq:before {
+    content: "\e99d"
+}
+
+.icon-whatsapp:before {
+    content: "\e991";
+    color: #1bd741
+}
+
+.icon-Tailgate-ajar:before {
+    content: "\e98d"
+}
+
+.icon-Low-Fuel-Warning:before {
+    content: "\e993"
+}
+
+.icon-start-stop:before {
+    content: "\e994"
+}
+
+.icon-reply:before {
+    content: "\e986"
+}
+
+.icon-location:before {
+    content: "\e985"
+}
+
+.icon-fuel-tank:before {
+    content: "\e984"
+}
+
+.icon-topspeed:before {
+    content: "\e982"
+}
+
+.icon-acceleration:before {
+    content: "\e983"
+}
+
+.icon-more:before {
+    content: "\e981"
+}
+
+.icon-car-service:before {
+    content: "\e956"
+}
+
+.icon-download-app:before {
+    content: "\e97d"
+}
+
+.icon-safety-month:before {
+    content: "\e97e"
+}
+
+.icon-user-reviews:before {
+    content: "\e97f"
+}
+
+.icon-brochure:before {
+    content: "\e93c"
+}
+
+.icon-colors:before {
+    content: "\e93e"
+}
+
+.icon-dealers:before {
+    content: "\e93f"
+}
+
+.icon-emi-calculator:before {
+    content: "\e940"
+}
+
+.icon-expert-review:before {
+    content: "\e941"
+}
+
+.icon-insurance:before {
+    content: "\e942"
+}
+
+.icon-loans:before {
+    content: "\e943"
+}
+
+.icon-service-cost:before {
+    content: "\e946"
+}
+
+.icon-video-play:before {
+    content: "\e920"
+}
+
+.icon-feel-tha-car:before {
+    content: "\e91c"
+}
+
+.icon-download:before {
+    content: "\e91d"
+}
+
+.icon-color:before {
+    content: "\e91e"
+}
+
+.icon-brake-system:before {
+    content: "\e92d"
+}
+
+.icon-general-car:before {
+    content: "\e92e"
+}
+
+.icon-payload-towing:before {
+    content: "\e930"
+}
+
+.icon-steering:before {
+    content: "\e937"
+}
+
+.icon-dimension:before {
+    content: "\e923"
+}
+
+.icon-entertainment:before {
+    content: "\e924"
+}
+
+.icon-exterior:before {
+    content: "\e925"
+}
+
+.icon-interior:before {
+    content: "\e926"
+}
+
+.icon-others:before {
+    content: "\e927"
+}
+
+.icon-performance:before {
+    content: "\e928"
+}
+
+.icon-safety:before {
+    content: "\e929"
+}
+
+.icon-suspension:before {
+    content: "\e92c"
+}
+
+.icon-360:before {
+    content: "\e913"
+}
+
+.icon-big-saving:before {
+    content: "\e915";
+    color: #f75d34
+}
+
+.icon-share:before {
+    content: "\e916"
+}
+
+.icon-info:before {
+    content: "\e917"
+}
+
+.icon-next:before {
+    content: "\e918"
+}
+
+.icon-offers:before {
+    content: "\e90f"
+}
+
+.icon-india-no:before {
+    content: "\e910"
+}
+
+.icon-check:before {
+    content: "\e901";
+    color: #019e43
+}
+
+.icon-deletearrow:before {
+    content: "\e90a";
+    color: #e6274b
+}
+
+.icon-down-arrow:before {
+    content: "\e90b"
+}
+
+.icon-overview:before {
+    content: "\e90e"
+}
+
+.icon-compare-car:before {
+    content: "\e903"
+}
+
+.icon-new-car:before {
+    content: "\e904"
+}
+
+.icon-news:before {
+    content: "\e906"
+}
+
+.icon-sell-car:before {
+    content: "\e908"
+}
+
+.icon-used-car:before {
+    content: "\e909"
+}
+
+.icon-back:before {
+    content: "\e902"
+}
+
+.icon-location-icon-homepage:before {
+    content: "\e911"
+}
+
+.icon-menu:before {
+    content: "\e912"
+}
+
+.icon-car-sold:before {
+    content: "\e97c"
+}
+
+.icon_facebook:before {
+    content: "\e91a";
+    color: #3b5998
+}
+
+.icon_google-plus:before {
+    content: "\e92a";
+    color: #dc4f42
+}
+
+.icon_twitter:before {
+    content: "\e932";
+    color: #5fa9dd
+}
+
+.icon-pinterest:before {
+    content: "\e947";
+    color: #cb2128
+}
+
+.icon-whatsapp:before {
+    content: "\e97b";
+    color: #57bb63
+}
+
+.icon-delete:before {
+    content: "\e97a"
+}
+
+.icon-diesel:before {
+    content: "\e95a"
+}
+
+.icon-petrol:before {
+    content: "\e979"
+}
+
+.icon-addition:before {
+    content: "\e970"
+}
+
+.icon-subtraction:before {
+    content: "\e978"
+}
+
+.icon-torque:before {
+    content: "\e951"
+}
+
+.icon-Ground-clearence:before {
+    content: "\e977"
+}
+
+.icon-cng:before {
+    content: "\e96f"
+}
+
+.icon-lpg:before {
+    content: "\e9b3"
+}
+
+.icon-electric:before {
+    content: "\e9b4"
+}
+
+.icon-offer:before {
+    content: "\e945"
+}
+
+.icon-BHP:before {
+    content: "\e94a"
+}
+
+.icon-Dealer:before {
+    content: "\e94c"
+}
+
+.icon-Dealer2:before {
+    content: "\e971"
+}
+
+.icon-Engine:before {
+    content: "\e94d"
+}
+
+.icon-Transmission:before {
+    content: "\e962"
+}
+
+.icon-call_icon:before {
+    content: "\e949"
+}
+
+.icon-comments:before {
+    content: "\e966"
+}
+
+.icon-dealer-sol:before {
+    content: "\e969"
+}
+
+.icon-fb-icon:before {
+    content: "\e948"
+}
+
+.icon-filter:before {
+    content: "\e950"
+}
+
+.icon-fuel:before {
+    content: "\e952"
+}
+
+.icon-gallery:before {
+    content: "\e967"
+}
+
+.icon-grid_icon:before {
+    content: "\e953"
+}
+
+.icon-heart_empty:before {
+    content: "\e94b"
+}
+
+.icon-heart_filled:before {
+    content: "\e954";
+    color: #f75d34
+}
+
+.icon-kilometer:before {
+    content: "\e955"
+}
+
+.icon-listing_view:before {
+    content: "\e957"
+}
+
+.icon-locationPin:before {
+    content: "\e958"
+}
+
+.icon-milage:before {
+    content: "\e959"
+}
+
+.icon-owner:before {
+    content: "\e94f"
+}
+
+.icon-play_icon:before {
+    content: "\e95b"
+}
+
+.icon-recent:before {
+    content: "\e95c"
+}
+
+.icon-review:before {
+    content: "\e96a"
+}
+
+.icon-search:before {
+    content: "\e95d"
+}
+
+.icon-seats:before {
+    content: "\e95e"
+}
+
+.icon-sorting:before {
+    content: "\e95f"
+}
+
+.icon-support:before {
+    content: "\e968"
+}
+
+.icon-thumbdown:before {
+    content: "\e960"
+}
+
+.icon-thumbup:before {
+    content: "\e961"
+}
+
+.icon-transmission:before {
+    content: "\e94e"
+}
+
+.icon-wheel:before {
+    content: "\e963"
+}
+
+.icon-write-a-comment:before {
+    content: "\e96b"
+}
+
+.icon-year:before {
+    content: "\e980"
+}
+
+.icon_appstore:before {
+    content: "\e900"
+}
+
+.icon_call:before {
+    content: "\e914"
+}
+
+.icon_comments:before {
+    content: "\e90d"
+}
+
+.icon_emi:before {
+    content: "\e905"
+}
+
+.icon_fblikes:before {
+    content: "\e907"
+}
+
+.icon_grid-view:before {
+    content: "\e90c"
+}
+
+.icon_home:before {
+    content: "\e91b"
+}
+
+.icon_mail:before {
+    content: "\e91f"
+}
+
+.icon_mobile-app:before {
+    content: "\e921"
+}
+
+.icon_most-viewed-Model:before {
+    content: "\e919";
+    color: #6b6b6b
+}
+
+.icon_my-account:before {
+    content: "\e922"
+}
+
+.icon_pencil:before {
+    content: "\e931"
+}
+
+.icon_phone:before {
+    content: "\e92f"
+}
+
+.icon_top-selling-model:before {
+    content: "\e936";
+    color: #6b6b6b
+}
+
+.icon_video:before {
+    content: "\e92b"
+}
+
+.icon_views:before {
+    content: "\e93d"
+}
+
+.icon-fulscreen:before {
+    content: "\e939"
+}
+
+.icon-msg-icon:before {
+    content: "\e944"
+}
+
+.icon-quote:before {
+    content: "\e938";
+    color: #6f7684
+}
+
+.icon-star-full-empty:before {
+    content: "\e933"
+}
+
+.icon-star-full-fill:before {
+    content: "\e935";
+    color: #ffa236
+}
+
+.icon-star-half-empty:before {
+    content: "\e934";
+    color: #ffa236
+}
+
+.icon-time:before {
+    content: "\e93b"
+}
+
+.icon-view:before {
+    content: "\e93a"
+}
+
+.icon_s:before {
+    content: "\73"
+}
+
+.icon_space:before {
+    content: "\20"
+}
+
+.icon_dot:before {
+    content: "\2e"
+}
+
+.icon-like-line:before {
+    content: "\e98e"
+}
+
+.icon-dislike-line:before {
+    content: "\e98f"
+}
